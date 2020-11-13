@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="mx-5 nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="mx-5 nav-link" href="#">Classes</a>
-                <a class="mx-5 nav-link" href="#">Contact Us</a>
+                <a class="mx-5 nav-link" href="./pages/classes.html">Classes</a>
+                <a class="mx-5 nav-link" href="./pages/contact.html">Contact Us</a>
                 <a class="mx-5 nav-link" href="#">NetLogo</a>
-                <a class="mx-5 nav-link" href="#">My Account</a>
+                <a class="mx-5 nav-link" href="./pages/account.html">My Account</a>
             </div>
         </div>
     </nav>
@@ -105,10 +105,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 d-flex align-items-end">
-                <div id="skillsJumbo" class="jumbotron mx-5">
-                    <div class="container bgPurple">
-                        <p class="lead">The game design process uses many skills, so we can be sure that every student
+            <div class="col-12 d-flex justify-content-center">
+                <div id="skillsJumbo" class="jumbotron mx-5 d-flex align-items-end p-0">
+                    <div class="container bgPurple pt-2 d-flex align-items-center">
+                        <p class="lead text-white">The game design process uses many skills, so we can be sure that every student
                             finds something to excel at!</p>
                     </div>
                 </div>
@@ -116,23 +116,23 @@
         </div>
 
         <!-- start of tabs section -->
-        <div class="row">
+        <div class="row mx-1">
             <div class="col-12">
                 <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Graphics</a>
+                    <li class="nav-item tab">
+                        <a class="nav-link activeTab">Graphics</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Narrative</a>
+                    <li class="nav-item tab">
+                        <a class="nav-link">Narrative</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Level Design</a>
+                    <li class="nav-item tab">
+                        <a class="nav-link">Level Design</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Audio</a>
+                    <li class="nav-item tab">
+                        <a class="nav-link">Audio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Code</a>
+                    <li class="nav-item tab">
+                        <a class="nav-link">Code</a>
                     </li>
                 </ul>
             </div>
@@ -147,18 +147,18 @@
         <!-- start of newsletter card -->
         <div class="row my-5">
             <div class="col-12">
-                <div class="card">
+                <div class="card border-0">
                     <h5 class="card-header bgPurple text-white">Join our Mailing List</h5>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">First & Last Name</label>
-                                <input class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                <label class="font-weight-bold" for="exampleFormControlTextarea1">First & Last Name</label>
+                                <input class="form-control" id="exampleFormControlTextarea1" rows="1"></input>
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">Email Address</label>
+                                <label class="font-weight-bold" for="exampleFormControlInput1">Email Address</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
+                                    placeholder="Big.Panda@ninjapandas.com"></input>
                             </div>
                             <button type="submit" class="btn btn-lg bgPurple text-white">Keep me updated!</button>
                         </form>
