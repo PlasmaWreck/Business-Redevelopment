@@ -11,8 +11,24 @@
     color: #4F449B;
 }
 
+.height100 {
+    height: 100%;
+    object-fit: cover;
+}
+
 .container-fluid {
     min-height: 70vh;
+}
+
+.whiteCircle {
+    background-image: url("../images/circleWhite.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stalinist {
+    font-family: 'Stalinist One', cursive;
 }
 
 #indexHero {
@@ -37,7 +53,7 @@
     background-color: #5f4f9f;
 }
 
-.nav-link {
+.whiteLink {
     color: white !important;
 
 }
