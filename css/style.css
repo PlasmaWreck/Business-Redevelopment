@@ -1,0 +1,47 @@
+.bgDark {
+    background-color:#16161D ;
+}
+
+.bgPurple {
+    background-color: #4F449B;  
+}
+
+.container-fluid {
+    min-height: 77vh;
+}
+
+#indexHero {
+    background-image: url("../images/groupPhoto.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#skillsJumbo {
+    background-image: url("../images/kidSmiling.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.opacity80 {
+    opacity: 80%;
+}
+
+.textSize400{
+    font-size: 350%;
+}
+
+.netLogoButtonFontSize{
+    font-size: 225%;
+}
+
+.netLogoButtonMarginRight{
+    margin-left: 35%;
+    
+}
+
+.netLogoButtonMarginLeft{
+    
+    margin-right: 35%;
+}
+
