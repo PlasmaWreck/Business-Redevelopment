@@ -27,8 +27,8 @@
     background-size: contain;
 }
 
-.stalinist {
-    font-family: 'Stalinist One', cursive;
+.goldman {
+    font-family: 'Goldman', cursive;
 }
 
 #indexHero {
@@ -40,7 +40,7 @@
 
 #skillsJumbo {
     background-image: url("../images/kidSmiling.jpg");
-    background-position: center;
+    background-position: top;
     background-size: 100%;
     height: 400px;
 }
