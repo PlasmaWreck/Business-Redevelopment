@@ -56,5 +56,23 @@
 .whiteLink {
     color: white !important;
 
+
+.textSize400{
+    font-size: 350%;
+}
+
+.netLogoButtonFontSize{
+    font-size: 225%;
+}
+
+.netLogoButtonMarginRight{
+    margin-left: 35%;
+    
+}
+
+.netLogoButtonMarginLeft{
+    
+    margin-right: 35%;
+
 }
 
