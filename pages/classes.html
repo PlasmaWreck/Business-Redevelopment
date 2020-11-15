@@ -97,7 +97,10 @@
                                 $20.00
                             </div>
                             <div class="col-12 col-md-2 py-3 py-md-0">
-                                <button class="btn bgPurple text-white">Buy</button>
+                                <!-- <button class="btn bgPurple text-white">Buy</button> -->
+                                <button type="button" class="btn bgPurple text-white" data-toggle="modal" data-target="#exampleModal">
+                                    Buy
+                                  </button>
                             </div>
                         </div>
                         <div class="d-block d-md-none"><hr></div>
@@ -115,7 +118,10 @@
                                 $15.00
                             </div>
                             <div class="col-12 col-md-2 py-3 py-md-0">
-                                <button class="btn bgPurple text-white">Buy</button>
+                                <!-- <button class="btn bgPurple text-white">Buy</button> -->
+                                <button type="button" class="btn bgPurple text-white" data-toggle="modal" data-target="#exampleModal">
+                                    Buy
+                                  </button>
                             </div>
                         </div>
                         <div class="row d-flex justify-content-between">
@@ -132,7 +138,10 @@
                                 FREE
                             </div>
                             <div class="col-12 col-md-2 py-3 py-md-0">
-                                <button class="btn bgPurple text-white">Buy</button>
+                                <!-- <button class="btn bgPurple text-white">Buy</button> -->
+                                <button type="button" class="btn bgPurple text-white" data-toggle="modal" data-target="#exampleModal">
+                                    Buy
+                                  </button>
                             </div>
                         </div>
                         <div class="d-block d-md-none"><hr></div>
@@ -152,6 +161,29 @@
         <span class="navbar-brand mb-0 h1 text-center">· NinjaPandas ·<br>© 2014</span>
     </nav>
     <!-- end of footer -->
+
+    <!--Start of Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Class Reservation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="newsletterConfirmation" class="modal-body">
+            SOLD OUT<br>
+            We're sorry, but the class you have chosen is all booked up.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Modal -->
     <!-- end of code -->
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -168,6 +200,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
+    <!-- <script type="module" src="../js/classesScript.js"></script> -->
 </body>
 
 </html>

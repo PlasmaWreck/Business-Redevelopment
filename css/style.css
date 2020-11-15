@@ -24,7 +24,7 @@
     background-image: url("../images/circleWhite.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
 }
 
 .goldman {
@@ -55,7 +55,7 @@
 
 .whiteLink {
     color: white !important;
-
+}
 
 .textSize400{
     font-size: 350%;
