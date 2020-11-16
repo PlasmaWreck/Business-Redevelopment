@@ -40,7 +40,7 @@
     width: 50%;
 }
 
-.hrFix{
+.hrOnBlackBG{
     border: 0;
     clear:both;
     display:block;
@@ -50,5 +50,34 @@
     height: 1px;
 }
 
+.hrOnPurpleBG{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;  
+    max-width: 1200px;             
+    background-color: black;
+    height: 1px;
+}
+
+
+
+.nav-tabs .nav-link:not(.active) {
+    background-color: #7e75b4;
+    color: black;
+}
+
+
+
+.nav-tabs .nav-link.active, .nav-tabs .show > .nav-link {
+    color: #4F449B;
+    background-color: #4F449B;
+    border-color: #4F449B;
+}
+
+
+li::marker {
+    font-size: 30px;
+}
 
 
