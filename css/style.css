@@ -27,8 +27,14 @@
     opacity: 80%;
 }
 
-.textSize400{
+.textSize350{
     font-size: 350%;
+}
+.textSize300{
+    font-size: 300%;
+}
+.textSize250{
+    font-size: 250%;
 }
 
 .netLogoButtonFontSize{
