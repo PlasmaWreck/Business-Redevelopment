@@ -7,6 +7,23 @@
     background-color: #4F449B;
 }
 
+.shadow {
+    color: aliceblue;
+  }
+
+  li.tab {
+      background-color: #7E75B4;
+  }
+
+  a.shadow:hover {
+      color: white;
+  }
+
+  a.shadow.active {
+      background-color: #4F449B !important;
+      color: white !important;
+  }
+
 .textPurple {
     color: #4F449B;
 }
