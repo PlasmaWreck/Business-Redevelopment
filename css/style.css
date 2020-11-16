@@ -35,13 +35,20 @@
     font-size: 225%;
 }
 
-.netLogoButtonMarginRightA{
-    margin-left: 35%;
-    
+.carasoulFix{
+    height: 50%;
+    width: 50%;
 }
 
-.netLogoButtonMarginLeftA{
-    
-    margin-right: 35%;
+.hrFix{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;  
+    max-width: 1200px;             
+    background-color: #4F449B;
+    height: 1px;
 }
+
+
 
