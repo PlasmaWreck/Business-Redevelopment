@@ -2,12 +2,33 @@
     background-color:#16161D ;
 }
 
+.activeTab,
 .bgPurple {
-    background-color: #4F449B;  
+    background-color: #4F449B;
+}
+
+.textPurple {
+    color: #4F449B;
+}
+
+.height100 {
+    height: 100%;
+    object-fit: cover;
 }
 
 .container-fluid {
-    min-height: 77vh;
+    min-height: 70vh;
+}
+
+.whiteCircle {
+    background-image: url("../images/circleWhite.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.goldman {
+    font-family: 'Goldman', cursive;
 }
 
 #indexHero {
@@ -19,17 +40,28 @@
 
 #skillsJumbo {
     background-image: url("../images/kidSmiling.jpg");
-    background-position: center;
+    background-position: top;
     background-size: 100%;
+    height: 400px;
 }
 
 .opacity80 {
     opacity: 80%;
 }
 
+
 .textSize350{
-    font-size: 350%;
+      font-size: 350%;
 }
+
+.tab {
+    background-color: #5f4f9f;
+}
+
+.whiteLink {
+    color: white !important;
+}
+
 .textSize300{
     font-size: 300%;
 }
@@ -82,8 +114,10 @@
 }
 
 
+
 li::marker {
     font-size: 30px;
 }
+
 
 
