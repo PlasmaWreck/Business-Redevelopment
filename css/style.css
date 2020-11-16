@@ -58,8 +58,8 @@
 #skillsJumbo {
     background-image: url("../images/kidSmiling.jpg");
     background-position: top;
-    background-size: 100%;
-    height: 400px;
+    background-size: cover;
+    height: 480px;
 }
 
 .opacity80 {
