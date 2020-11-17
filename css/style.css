@@ -7,6 +7,23 @@
     background-color: #4F449B;
 }
 
+.shadow {
+    color: aliceblue;
+  }
+
+  li.tab {
+      background-color: #7E75B4;
+  }
+
+  a.shadow:hover {
+      color: white;
+  }
+
+  a.shadow.active {
+      background-color: #4F449B !important;
+      color: white !important;
+  }
+
 .textPurple {
     color: #4F449B;
 }
@@ -17,7 +34,7 @@
 }
 
 .container-fluid {
-    min-height: 70vh;
+    min-height: 72vh;
 }
 
 .whiteCircle {
@@ -41,8 +58,8 @@
 #skillsJumbo {
     background-image: url("../images/kidSmiling.jpg");
     background-position: top;
-    background-size: 100%;
-    height: 400px;
+    background-size: cover;
+    height: 480px;
 }
 
 .opacity80 {
